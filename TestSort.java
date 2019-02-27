@@ -9,6 +9,7 @@ public class TestSort {
 
         int[] a = {2, 2, 1};
 
+	String s;
         Sort.merge(arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
