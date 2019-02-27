@@ -7,6 +7,7 @@ public class TestSort {
     public static void main(String[] args) {
         int[] arr = {1, 2, 1};
 
+        int[] a = {2, 2, 1};
 
         Sort.merge(arr);
         for (int i = 0; i < arr.length; i++) {
@@ -23,7 +24,7 @@ public class TestSort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-	//End
+	
 
     }
 }
