@@ -12,6 +12,7 @@ public class TestSort {
         Sort.merge(arr);
 	  i++;
 	  i--;
+	//ÕâÊÇ×¢ÊÍ
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
